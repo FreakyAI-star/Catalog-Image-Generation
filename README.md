@@ -23,7 +23,7 @@ The project follows a three-stage design:
 
 - `run_edit.py` — The core inference script. Takes items from `product_interaction_prompts.csv`, downloads the raw images, and batches requests to the chosen editing diffusion pipeline.
 - `eval_edit.py` — The automated VLM-based scoring script to critique and score generated outputs against unmodified inputs based on the project's rubric.
-- `scripts/build_interaction_pairs.py` — Toolkit handling dataset processing, catalog deduplication and the generation of structured interaction pairs.
+- `build_interaction_pairs.py` — Toolkit handling dataset processing, catalog deduplication and the generation of structured interaction pairs.
 - `product_interaction_prompts.csv` — Contains evaluation subsets covering varied categories like mobile accessories, appliances, laptops, and small electronics along with complex scene prompts.
 - `DLCV_project_report.pdf` — The primary research report detailing experiments, results, architecture choices, and references.
 - `requirements.txt` — Project's Python dependencies.
